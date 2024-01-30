@@ -7,14 +7,16 @@ def encurtar_uuid_base64(uuid_str):
     base64_encoded = base64.urlsafe_b64encode(uuid_bytes).decode().rstrip('=')
     return base64_encoded
 
-# Exemplo de uso para o projeto "Emergencia"
-uuid_emergencia = str(uuid.uuid4())
-uuid_encurtado_emergencia = encurtar_uuid_base64(uuid_emergencia)
-print("Projeto Emergencia - UUID Original:", uuid_emergencia)
-print("Projeto Emergencia - UUID Encurtado:", uuid_encurtado_emergencia)
+# Exemplo de uso para o projeto "Projeto 1"
+uuid_nomedoprojeto = str(uuid.uuid4())
+uuid_encurtado_nomedoprojeto = encurtar_uuid_base64(uuid_nomedoprojeto)
+print("Projeto 1 - UUID Original:", uuid_nomedoprojeto)
+print("Projeto 1 - UUID Encurtado:", uuid_encurtado_nomedoprojeto)
 
-# Exemplo de uso para o projeto "HealthUnit"
-uuid_healthunit = str(uuid.uuid4())
-uuid_encurtado_healthunit = encurtar_uuid_base64(uuid_healthunit)
-print("\nProjeto HealthUnit - UUID Original:", uuid_healthunit)
-print("Projeto HealthUnit - UUID Encurtado:", uuid_encurtado_healthunit)
+# Exemplo de uso para o projeto "Projeto 2"
+uuid_nomedoprojeto2 = str(uuid.uuid4())
+uuid_encurtado_nomedoprojeto2 = encurtar_uuid_base64(uuid_nomedoprojeto2)
+print("\nProjeto 2 - UUID Original:", uuid_nomedoprojeto2)
+print("Projeto 2 - UUID Encurtado:", uuid_encurtado_nomedoprojeto2)
+
+# Você pode adicionar mais projetos para gerar códigos
