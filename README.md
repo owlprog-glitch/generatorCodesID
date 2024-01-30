@@ -7,4 +7,4 @@ Escrever o nome do seu projeto
 "nomedoprojeto"
 "projeto XXXX"
 
-### Não esqueça de deixar os créditos
+#### É importante deixar anotações nos códigos, e não utilize todos os arquivos, utilize aquele que você preferir
