@@ -2,6 +2,8 @@
 
 É um gerador de código feito em Python, para gerar algum código aleatório para seu projeto
 
+⚠️ Quando você fizer o seu projeto, sempre vá ao cartório cadastrar, mesmo que seja um projeto pessoal ou jurídico, o que gerará um "selo" para proteção
+
 ### Anotações:
 Escrever o nome do seu projeto
 "nomedoprojeto"
