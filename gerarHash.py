@@ -12,12 +12,12 @@ def gerar_hash_projeto(texto):
 
     return hash_resultado
 
-# Exemplo de uso para o projeto "Emergencia"
-texto_emergencia = "Dados relevantes do projeto Emergencia"
-hash_emergencia = gerar_hash_projeto(texto_emergencia)
-print("Hash para Emergencia:", hash_emergencia)
+# Exemplo de uso para o projeto "nomedoprojeto"
+texto_nomedoprojeto = "Dados relevantes do projeto XXXX"
+hash_nomedoprojeto = gerar_hash_projeto(texto_XXXX)
+print("Hash para nomedoprojeto:", hash_nomedoprojeto)
 
-# Exemplo de uso para o projeto "HealthUnit"
-texto_healthunit = "Dados relevantes do projeto HealthUnit"
-hash_healthunit = gerar_hash_projeto(texto_healthunit)
-print("Hash para HealthUnit:", hash_healthunit)
+# Exemplo de uso para o projeto "nomedoprojeto2"
+texto_nomedoprojeto2 = "Dados relevantes do projeto XXXX2"
+hash_nomedoprojeto2 = gerar_hash_projeto(texto_XXXX2)
+print("Hash para nomedoprojeto:", hash_nomedoprojeto2)
