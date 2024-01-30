@@ -9,10 +9,12 @@ def gerar_identificador_projeto(prefixo):
 
     return identificador_str
 
-# Exemplo de uso para o projeto "Emergencia"
-identificador_emergencia = gerar_identificador_projeto("EMR")
-print("Identificador para Emergencia:", identificador_emergencia)
+# Exemplo de uso para o projeto "nomedoprojeto"
+identificador_nomedoprojeto = gerar_identificador_projeto("EMR")
+print("Identificador para nomedoprojeto:", identificador_nomedoprojeto)
 
-# Exemplo de uso para o projeto "HealthUnit"
-identificador_healthunit = gerar_identificador_projeto("HU")
-print("Identificador para HealthUnit:", identificador_healthunit)
+# Exemplo de uso para o projeto "nomedoprojeto2"
+identificador_nomedoprojeto2 = gerar_identificador_projeto("HU")
+print("Identificador para nomedoprojeto2:", identificador_nomedoprojeto2)
+
+# Pode ser adicionado mais, veja o exemplo das letras "EMR" e "HU"
