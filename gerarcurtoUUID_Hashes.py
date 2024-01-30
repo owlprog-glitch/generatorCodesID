@@ -7,14 +7,14 @@ def encurtar_uuid_hash(uuid_str, comprimento=8):
     hash_resultado = hash_obj.hexdigest()
     return hash_resultado[:comprimento]
 
-# Exemplo de uso para o projeto "Emergencia"
-uuid_emergencia = str(uuid.uuid4())
-uuid_encurtado_emergencia = encurtar_uuid_hash(uuid_emergencia)
-print("Projeto Emergencia - UUID Original:", uuid_emergencia)
-print("Projeto Emergencia - UUID Encurtado:", uuid_encurtado_emergencia)
+# Exemplo de uso para o projeto "nomedoprojeto"
+uuid_nomedoprojeto = str(uuid.uuid4())
+uuid_encurtado_nomedoprojeto = encurtar_uuid_hash(uuid_nomedoprojeto)
+print("Projeto nomedoprojeto - UUID Original:", uuid_nomedoprojeto)
+print("Projeto nomedoprojeto - UUID Encurtado:", uuid_encurtado_nomedoprojeto)
 
-# Exemplo de uso para o projeto "HealthUnit"
-uuid_healthunit = str(uuid.uuid4())
-uuid_encurtado_healthunit = encurtar_uuid_hash(uuid_healthunit)
-print("\nProjeto HealthUnit - UUID Original:", uuid_healthunit)
-print("Projeto HealthUnit - UUID Encurtado:", uuid_encurtado_healthunit)
+# Exemplo de uso para o projeto "nomedoprojeto2"
+uuid_nomedoprojeto2 = str(uuid.uuid4())
+uuid_encurtado_nomedoprojeto2 = encurtar_uuid_hash(uuid_nomedoprojeto2)
+print("\nProjeto nomedoprojeto2 - UUID Original:", uuid_nomedoprojeto2)
+print("Projeto nomedoprojeto2 - UUID Encurtado:", uuid_encurtado_nomedoprojeto2)
